@@ -1,0 +1,8 @@
+name: "Melted Whitehouseium"
+description: '''
+Whitehouseium that has been melted into a liquid.
+[red]currently only used as a booster, other than that there's no usage.
+'''
+color: bfbfbfbf
+viscosity: 0.45
+research: whitehouseium
