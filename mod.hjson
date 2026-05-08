@@ -1,0 +1,18 @@
+name: "phighthouse"
+displayName: "PHIGHTHOUSE! BRANCH EDITION."
+description: '''
+[#D75a58[]]Disclaimer: this mod shares the same mod name with the base mod, make sure either one of the mods are disabled first.
+
+[#ffffff[]]PHIGHTHOUSE! is a style i made up which is basically a combination of phighting, a 5v5 fighting game by boggio, and whitehouse, a british extreme music band started by w. bennett.
+this mod is a "branch" version of the base mod, meaning it has it's own tech tree, it also comes with a lot of changes from the original mod, mainly, the coilium & whitehouseium production buildings are
+totally free, and all buildings from this mod only uses materials from this mod.
+(note: this is mostly just an asset flip imo creds to the modders of vincenzotheduck, zac, Dagger & others.)
+'''
+subtitle: '''
+phighthouse whats that?
+'''
+author: '''
+PHIGHTHOUSE!
+'''
+minGameVersion: 136.1
+version: 1.4
