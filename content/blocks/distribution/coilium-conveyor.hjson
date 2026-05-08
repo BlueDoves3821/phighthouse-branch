@@ -1,0 +1,19 @@
+type: StackConveyor
+name: "Coilium Conveyor"
+description: '''
+A stack conveyor made from coilium.
+'''
+health: 75
+armor: 5
+speed: 0.5
+itemCapacity: 35
+category: distribution
+requirements: [
+coilium/1
+]
+research: {
+    parent: coilium-maker
+    requirements: [
+coilium/80
+]
+}
