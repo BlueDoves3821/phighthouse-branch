@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: "Coilium Maker"
+description: '''
+Makes coilium using "Boggio" technology, don't ask me why and how this works :P
+'''
+size: 2
+consumes: {
+  items: [
+  ]
+}
+craftEffect: smeltsmoke
+drawer: [
+  DrawDefault
+  {
+    type: DrawFlame
+    flameColor: 45b8ff
+  }
+]
+craftTime: 30
+outputItems: [
+   coilium/2
+]
+  research: {
+    parent: phighting-branch
+    requirements: [
+]
+}
+category: crafting
+requirements: [
+
+]
