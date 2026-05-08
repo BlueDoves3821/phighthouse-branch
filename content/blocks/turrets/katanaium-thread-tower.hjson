@@ -1,0 +1,36 @@
+{
+  "type": "TractorBeamTurret",
+  "name": "Katanaium Thread Tower",
+  "description": "Pulls enemies towards itself, minimal damage, applies unmoving.",
+  "size": 2,
+  "force": 800,
+  "targetAir": true,
+  "targetGround": true,
+  "scaledForce": 800,
+  "health": 850,
+  "range": 500,
+  "damage": 10,
+  "status": "unmoving",
+  "statusDuration": 60,
+  "rotateSpeed": 15,
+  "hasPower": true,
+  "consumes": {
+    "power": 2.5
+  },
+"shootType": {
+  "type": "ContinuousLaserBulletType",
+  "trailColor":"FFFFFF"}
+,
+  "requirements": [
+  {"item":"katanaium","amount":80}
+  {"item":"coilium","amount":35}
+  ],
+  "category": "turret"
+  research: {
+    parent: rocket-cannonade
+    requirements: [
+      coilium/175
+      katanaium/150
+]
+}
+}
