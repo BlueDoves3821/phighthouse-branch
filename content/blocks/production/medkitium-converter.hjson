@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: "Medkitium Converter"
+description: '''
+Converts coilium into medkitium.
+'''
+size: 2
+consumes: {
+  items: [
+    coilium/1
+  ]
+}
+craftEffect: smeltsmoke
+drawer: [
+  DrawDefault
+  {
+    type: DrawFlame
+    flameColor: 2cbfa2
+  }
+]
+craftTime: 30
+outputItems: [
+   medkitium/1
+]
+  research: {
+    parent: subspaceium-maker
+    requirements: [
+      coilium/150
+]
+}
+category: crafting
+requirements: [
+  coilium/50
+]

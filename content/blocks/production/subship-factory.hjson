@@ -1,0 +1,32 @@
+Name: Subspaceium Ship Factory
+description: A massive factory that only builds subspaceium ships.
+type: UnitFactory
+size: 11
+health: 5000
+armor: 5
+consumes: {
+  power: 2
+}
+plans: [
+  {
+    unit: subspaceium-ship
+    time: 1200
+    requirements: [
+subspaceium/350
+    ]
+  }
+]
+requirements: [
+coilium/450
+biograftium/100
+katanaium/95
+subspaceium/250
+]
+  research: {
+    parent: bgmu-factory
+    requirements: [
+   coilium/650
+   subspaceium/350
+]
+}
+category: units

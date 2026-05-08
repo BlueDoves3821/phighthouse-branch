@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: "Biograftium Converter"
+description: '''
+Converts subspaceium into biograftium.
+'''
+size: 2
+consumes: {
+  items: [
+    subspaceium/1
+  ]
+}
+craftEffect: smeltsmoke
+drawer: [
+  DrawDefault
+  {
+    type: DrawFlame
+    flameColor: FF6A00
+  }
+]
+craftTime: 30
+outputItems: [
+   biograftium/1
+]
+  research: {
+    parent: subspaceium-converter
+    requirements: [
+      coilium/150
+]
+}
+category: crafting
+requirements: [
+  subspaceium/35
+]

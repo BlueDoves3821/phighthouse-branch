@@ -1,0 +1,33 @@
+Name: Phighthouseium Unit Factory
+description: Builds units using phighthouseium.
+type: UnitFactory
+size: 5
+consumes: {
+  power: 0.5
+}
+plans: [
+  {
+    unit: phighthouseium-walker
+    time: 900
+    requirements: [
+phighthouseium/85
+    ]
+  }
+ {
+    unit: phighthouseium-thing
+    time: 2000
+    requirements: [
+phighthouseium/150
+    ]
+  }
+]
+requirements: [
+phighthouseium/250
+]
+  research: {
+    parent: ph-core
+    requirements: [
+      phighthouseium/1000
+]
+}
+category: units

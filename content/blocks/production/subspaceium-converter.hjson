@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: "Subspaceium Converter"
+description: '''
+Converts coilium into a highly-explosive subspaceium.
+'''
+size: 2
+consumes: {
+  items: [
+    coilium/1
+  ]
+}
+craftEffect: smeltsmoke
+drawer: [
+  DrawDefault
+  {
+    type: DrawFlame
+    flameColor: FF0368
+  }
+]
+craftTime: 30
+outputItems: [
+   subspaceium/1
+]
+  research: {
+    parent: hyperlaserium-converter
+    requirements: [
+      coilium/150
+]
+}
+category: crafting
+requirements: [
+  coilium/50
+]

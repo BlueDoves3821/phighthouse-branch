@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: "Hyperlaserium Converter"
+description: '''
+Converts coilium into a precision-based hyperlaserium.
+'''
+size: 2
+consumes: {
+  items: [
+    coilium/1
+  ]
+}
+craftEffect: smeltsmoke
+drawer: [
+  DrawDefault
+  {
+    type: DrawFlame
+    flameColor: 2b90b4
+  }
+]
+craftTime: 30
+outputItems: [
+   hyperlaserium/1
+]
+research: {
+    parent: coilium-maker
+    requirements: [
+    coilium/150
+]
+}
+category: crafting
+requirements: [
+  coilium/50
+]

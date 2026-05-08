@@ -1,0 +1,43 @@
+{
+	"type": "Separator",
+  "name": "Phightium Factory",
+  "description": "Turns coilium into other phightiums, uses alot of power.",
+	"size": 4,
+        "itemCapacity": 120,
+ "health": 950,
+	"spinnerSpeed": 4,
+	"craftTime": 4,
+	"hasItems": true,
+	"hasLiquids": false,
+	"hasPower": true,
+	"consumes": {
+		"power": 3,
+   "items": [
+    coilium/3
+  ]
+	},
+	"requirements": [
+		{"item": "coilium", "amount": 150},
+		{"item": "katanaium", "amount": 75},
+	],
+	"category": "crafting",
+	"research": {
+  parent: boomcore
+    requirements: [
+      coilium/150
+      hyperlaserium/150
+      subspaceium/150
+      biograftium/150
+      katanaium/150
+      medkitium/150
+]
+}
+	"results": [
+		{"item": "coilium", "amount": 12},
+		{"item": "hyperlaserium", "amount": 10},
+		{"item": "subspaceium", "amount": 7},
+		{"item": "biograftium", "amount": 5},
+		{"item": "katanaium", "amount": 8},
+		{"item": "medkitium", "amount": 2}
+	]
+}
