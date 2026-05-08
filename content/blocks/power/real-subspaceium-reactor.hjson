@@ -1,0 +1,44 @@
+type: NuclearReactor
+
+name: '''
+Subspaceium Reactor
+'''
+description: "A modified subspaceium reactor that uses subspaceium as fuel, good power output."
+details: "THE DOOMED POTENTIAL."
+
+requirements: [
+  subspaceium/150
+  katanaium/20
+]
+size: 3
+ambientSound: hum
+ambientSoundVolume: 0.3
+itemDuration: 600
+itemCapacity: 45
+liquidCapcity: 3500
+health: 1500
+armor: 10
+powerProduction: 45
+heating: 0.00085
+flashThreshold: 0.2
+fuelItem: subspaceium
+research: {
+    parent: subspaceium-converter
+    requirements: [
+      coilium/400
+      subspaceium/350
+]
+}
+category: power
+consumes: {
+  items: [
+    subspaceium/1
+  ]
+  liquids: [
+    water/0.05
+  ]
+}
+explosionShake: 9
+explosionShakeDuration: 20
+explosionRadius: 25
+explosionDamage: 7500

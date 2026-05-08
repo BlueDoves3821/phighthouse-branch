@@ -1,0 +1,89 @@
+type: NuclearReactor
+
+name: '''
+big subspaceium reactor
+'''
+description: "N/A In Campaign mode.
+this can power everything you build, goes well with the phighthouse power grid, be sure to protect it well, otherwise, you can say your sector a good goodbye."
+
+requirements: [
+  subspaceium/1500
+  katanaium/500
+]
+size: 10
+ambientSound: hum
+ambientSoundVolume: 1
+itemDuration: 1200
+itemCapacity: 100
+liquidCapcity: 3500
+health: 15000
+armor: 100
+powerProduction: 4500
+heating: 0.00085
+flashThreshold: 0.2
+fuelItem: phighthouse-subspaceium
+category: power
+consumes: {
+  items: [
+    subspaceium/5
+  ]
+  liquids: [
+    water/0.1
+  ]
+}
+explodeEffect: {
+    type: MultiEffect
+    effects: [
+        {
+            type: WaveEffect
+            sides: 0
+            sizeFrom: 0
+            sizeTo: 2000
+            strokeFrom: 4
+            strokeTo: 0
+            colorFrom: F23AB7
+            colorTo: F23AB7
+            lifetime: 23
+        }
+        {
+            type: WaveEffect
+            sides: 0
+            sizeFrom: 0
+            sizeTo: 2300
+            strokeFrom: 4
+            strokeTo: 0
+            colorFrom: F23AB7
+            colorTo: F23AB7
+            lifetime: 23
+        }
+        {
+            type: ParticleEffect
+            particles: 40
+            sizeFrom: 250
+            sizeTo: 0
+            lifetime: 150
+            cone: 360
+            length: 200
+            colorFrom: ff0368
+            colorTo: F23AB7
+        }
+        {
+            type: ParticleEffect
+            particles: 15
+            sizeFrom: 200
+            sizeTo: 0
+            lifetime: 100
+            cone: 360
+            length: 325
+            colorFrom: ff0368
+            colorTo: F23AB7
+            line: true
+            strokeFrom: 4
+            strokeTo: 0
+        }
+    ]
+}
+explosionShake: 90
+explosionShakeDuration: 75
+explosionRadius: 2500
+explosionDamage: 750000
