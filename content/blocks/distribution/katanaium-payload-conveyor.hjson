@@ -1,0 +1,16 @@
+{    
+name: "Katanaium Payload Conveyor"
+description: '''
+A slightly faster payload conveyor, enlarged to accomidate larger units.
+'''
+    "type": "PayloadConveyor",
+    "health": 700,
+    "size": 5,
+    "moveTime": 30,
+    "payloadLimit": 5,
+    "requirements": [
+     "katanaium/25"
+    ],
+    "category": "units",
+    "research": "katanaium-converter"
+}
