@@ -1,0 +1,40 @@
+name: "Coilium Overdrive"
+description: '''
+A good overdriver made from half coilium, half titanium, optonally uses coilium for a faster overdrive.
+'''
+type: OverdriveProjector
+category: effect
+hasBoost: true
+hasPower: false
+hasItems: true
+size: 3
+speedBoost: 2
+speedBoostPhase: 4
+rangeBoostPhase: 5
+range: 600
+itemCapacity: 40
+itemDuration: 480
+powerProduction: 60
+health: 1820
+liquidCapacity: 60
+
+consumes: {
+        "items": {
+            "items": [
+                "coilium/1"
+            ],
+            "booster": true,
+            "optional": true
+        }
+    }
+
+requirements: [
+  coilium/150
+]
+
+research: {
+  parent: coilium-maker
+  requirements: [
+    coilium/350
+  ]
+}

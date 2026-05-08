@@ -1,0 +1,32 @@
+name: "Biograftium Overdrive"
+description: '''
+Overdrives anything by an absurdly amount, but has low range.
+'''
+type: OverdriveProjector
+category: effect
+hasPower: false
+hasItems: true
+size: 2
+speedBoost: 20
+range: 75
+itemCapacity: 40
+itemDuration: 480
+health: 550
+
+consumes: {
+  items: [
+    biograftium/1
+  ]
+}
+requirements: [
+  subspaceium/150
+  biograftium/50
+]
+
+research: {
+  parent: coilium-overdrive
+  requirements: [
+    subspaceium/300
+    biograftium/100
+  ]
+}

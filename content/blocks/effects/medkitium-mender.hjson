@@ -1,0 +1,30 @@
+name: "Medkitium Mender"
+description: '''
+A mender made out of medkitium & katanaium, heals very well.
+'''
+type: MendProjector
+color:2CBFA2
+health: 1500
+size: 2
+requirements: [
+  medkitium/90
+  katanaium/50
+]
+category: effect
+  research: {
+    parent: medkitium-converter
+    requirements: [
+      medkitium/350
+      katanaium/500
+]
+}
+hasPower:true
+consumes: {
+  power: 4
+}
+reload: 35
+range: 200
+healpercent: 35
+phaseRangeBoost: 1
+phaseBoost: 1.5
+useTime: 150

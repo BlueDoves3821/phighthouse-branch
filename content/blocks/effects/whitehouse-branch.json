@@ -1,0 +1,14 @@
+{  
+    "localizedName": "Whitehouse Branch",
+    "description": "A branch for all things whitehouse.",
+    "alwaysUnlocked": true,
+    "buildVisibility": "editorOnly",
+    "type": "LightBlock",
+    "health": 800,
+    "size": 2,
+   "research": {
+  "root": true,
+  "name": "Whitehouse Branch",
+  "requiresUnlock": false
+}
+}

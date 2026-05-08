@@ -1,0 +1,14 @@
+{  
+    "localizedName": "PHIGHTHOUSE! Branch",
+    "description": "A branch for all things phighthouse.",
+    "alwaysUnlocked": true,
+    "buildVisibility": "editorOnly",
+    "type": "LightBlock",
+    "health": 800,
+    "size": 2,
+   "research": {
+  "root": true,
+  "name": "PHIGHTHOUSE! Branch",
+  "requiresUnlock": false
+}
+}

@@ -1,0 +1,14 @@
+{  
+    "localizedName": "PHIGHTING! Branch",
+    "description": "A branch for all things phighting.",
+    "alwaysUnlocked": true,
+    "buildVisibility": "editorOnly",
+    "type": "LightBlock",
+    "health": 800,
+    "size": 2,
+   "research": {
+  "root": true,
+  "name": "PHIGHTING! Branch",
+  "requiresUnlock": false
+}
+}
