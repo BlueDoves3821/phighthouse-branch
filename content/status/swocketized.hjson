@@ -1,0 +1,18 @@
+name: "Swocketized"
+description: '''
+the effect resulted in being hit by the swocket.
+(or other phighthouse turrets/units)
+'''
+speedMultiplier: 0.15
+reloadMultiplier: 0.25
+healthMultiplier: 0.85
+damage: 1
+effect: {
+  length: 30
+  lifetime: 25
+  particles: 4
+  colorFrom: 787878
+  colorTo: 787878
+  sizeFrom: 4
+  sizeTo: 0
+}
