@@ -28,7 +28,7 @@ consumes: {
   }
 }
   research: {
-    parent: coilium-converter
+    parent: coilium-maker
     requirements: [
       coilium/100
       katanaium/100
