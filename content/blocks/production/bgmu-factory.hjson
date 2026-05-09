@@ -10,26 +10,26 @@ plans: [
     unit: mini-bgm-unit-no-boost
     time: 100
     requirements: [
-phighthouse-biograftium/10
+biograftium/10
     ]
   }
   {
     unit: mini-bgm-unit
     time: 100
     requirements: [
-phighthouse-biograftium/15
+biograftium/15
     ]
   }
 ]
 requirements: [
-phighthouse-coilium/75
-phighthouse-biograftium/50
+coilium/75
+biograftium/50
 ]
   research: {
-    parent: phighthouse-coilium-converter
+    parent: coilium-maker
     requirements: [
-      phighthouse-coilium/100
-      phighthouse-biograftium/100
+      coilium/100
+      biograftium/100
 ]
 }
 category: units
