@@ -22,7 +22,7 @@ outputItems: [
    medkitium/1
 ]
   research: {
-    parent: subspaceium-maker
+    parent: subspaceium-converter
     requirements: [
       coilium/150
 ]
