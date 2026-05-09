@@ -12,5 +12,5 @@ A slightly faster payload router, enlarged to accomidate larger units.
      "phighthouse-katanaium/25"
     ],
     "category": "units",
-    "research": "payload-conveyor"
+    "research": "katanaium-payload-conveyor"
 }
