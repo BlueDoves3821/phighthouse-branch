@@ -1,0 +1,25 @@
+type: BeamDrill
+name: "Whitehouseium Laser Drill"
+description: '''
+A laser drill made out of whitehouseium, beams materials from wall ores.
+'''
+size: 2
+requirements: [
+whitehouseium/50
+]
+drillTime: 30
+health: 850
+tier: 10
+size: 2
+rotateSpeed: 8
+warmupSpeed: 0.01
+itemCapacity: 30
+range: 10
+sparkColor: ffffffff
+  research: {
+    parent: whitehouseium-drill
+    requirements: [
+      whitehouseium/100
+]
+}
+category: production
