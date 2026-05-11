@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: "Coilium Water Machine"
+description: '''
+Exchanges coilium for water, requires a bit of power to use.
+'''
+size: 2
+consumes: {
+  power: 0.2
+items: [
+    coilium/1
+  ]
+}
+craftEffect: vaporSmall
+craftTime: 120
+outputLiquids: [
+   water/8
+]
+liquidCapacity: 1000
+itemCapacity: 50
+  research: {
+    parent: coilium-maker
+    requirements: [
+      coilium/150
+]
+}
+category: liquid
+requirements: [
+  coilium/100
+]
