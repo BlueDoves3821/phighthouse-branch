@@ -1,6 +1,6 @@
 name: "Medkitium"
 description: '''
-a healing item made from mixing coilium & plastanium.
+a healing item made from converting coilium.
 '''
 color: 2cbfa2
   research: {
