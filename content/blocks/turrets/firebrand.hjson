@@ -28,7 +28,7 @@ shootType: {
   trailEffect: fire
   trailChance: 0.65
   speed: 4
-  lifetime: 70
+  lifetime: 150
   status: burning
   hitEffect: fireHit
   despawnEffect: blastExplosion
