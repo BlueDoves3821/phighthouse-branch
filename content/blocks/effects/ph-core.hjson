@@ -22,8 +22,6 @@ research: {
     requirements: [
 coilium/500
 katanaium/500
-whitehouseium/250
-titanium/250
-silicon/250
+whitehouseium/500
 ]
 }
