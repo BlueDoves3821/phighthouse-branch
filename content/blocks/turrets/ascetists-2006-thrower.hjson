@@ -16,6 +16,7 @@ recoil: 1
 shake: 8
 size: 3
 outlineColor: 00000000
+shootEffect: none
 drawer: {
 type: DrawTurret
 basePrefix: logo-
